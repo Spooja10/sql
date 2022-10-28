@@ -1,0 +1,14 @@
+CREATE DATABASE outfit_company;
+use outfit_company;
+CREATE TABLE outfit(Sl_No int,employee_name varchar(50),employee_age int,role varchar(20),employee_num long,Id_No int,sector varchar(50),gender varchar(40),salary bigint);
+SELECT * FROM outfit;
+INSERT INTO outfit VALUES(1,'Pooja',23,'system_engineer',8748833195,37421,'software','female',50000);
+INSERT INTO outfit VALUES(2,'Keertana',23,'analyst',8088060299,37422,'software','female',45000);
+INSERT INTO outfit VALUES(3,'Afreen',23,'therapist',987665423,45231,'health_care','female',40000);
+INSERT INTO outfit VALUES(4,'aishu',24,'developer',9380756241,34258,'construction','feamale',45000);
+INSERT INTO outfit VALUES(5,'rajath',25,'tester',987654392,87645,'agri','male',50000);
+INSERT into outfit values(6,'guru',27,'electrician',897756439,78654,'manufacturing','male',80000);
+INSERT INTO outfit VALUES(7,'manjula',26,'banker',987345392,87765,'accountancy','female',60000);
+INSERT INTO outfit VALUES(8,'leo',27,'banker',998765392,87697,'finance','male',65000);
+INSERT INTO outfit VALUES(9,'Tosty',22,'auto_technician',759654392,45645,'agri','female',45000);
+INSERT INTO outfit VALUES(10,'rakhi',23,'technician',9455654392,43645,'software','female',36000);
